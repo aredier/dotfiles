@@ -1,0 +1,11 @@
+JetBrains/
+argocd/
+helm/
+htop/
+gatsby
+gcloud/
+glab-cli/
+.idea
+nvim.bak/
+nvim_backup/
+configstore/
