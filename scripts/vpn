@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# launch openvpn for authentificator
+
+openvpn --config /secrets/smart-openvpn/aredier.ovpn --auth-user-pass --auth-retry interact

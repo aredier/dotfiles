@@ -1,8 +1,11 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/aredier/.config
+- /home/aredier/personal_projects/klimt.nvim
 startuppopupversion: 5
 customcommandshistory:
+- Q
 - q
-hidecommandlog: false
+- wq
+hidecommandlog: true
 ignorewhitespaceindiffview: false

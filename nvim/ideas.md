@@ -1,1 +1,0 @@
-- [ ] replace `<leader>gc` by `<leader>cc`

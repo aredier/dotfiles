@@ -1,5 +1,7 @@
 return {
   {
+    -- "aredier/klimt.nvim",
+    -- branch = "v0",
     "rebelot/kanagawa.nvim",
     opts = {
       colors = {
