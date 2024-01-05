@@ -1,11 +1,12 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/aredier/.config
+- /home/aredier/projects/capa-planining/lendil
 - /home/aredier/personal_projects/klimt.nvim
 startuppopupversion: 5
 customcommandshistory:
 - Q
 - q
 - wq
-hidecommandlog: true
+hidecommandlog: false
 ignorewhitespaceindiffview: false
