@@ -1,8 +1,12 @@
 lastupdatecheck: 0
 recentrepos:
 - /home/aredier/.config
-- /home/aredier/projects/capa-planining/lendil
-- /home/aredier/personal_projects/klimt.nvim
+- /home/aredier/projects/gcp/gcp_admin/natar
+- /home/aredier/projects/gcp/gcp_projects
+- /home/aredier/projects/gcp/modules/billing-alert
+- /home/aredier/projects/gcp/team_projects/infra/sandbox
+- /home/aredier/projects/gcp/modules/gcp-project
+- /home/aredier/projects/gcp/gcp_admin/tags
 startuppopupversion: 5
 customcommandshistory:
 - Q

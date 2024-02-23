@@ -1,0 +1,51 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1160,
+       "width": 930,
+       "x": 20,
+       "y": 20
+    },
+    "marks": [],
+    "name": "team-infra - Equativ - Slack",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Slack$",
+       // "instance": "^slack$",
+       // "machine": "^aredier\\-XPS\\-15\\-9500$",
+       // "title": "^team\\-infra\\ \\-\\ Equativ\\ \\-\\ Slack$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    "border": "pixel",
+    "current_border_width": 0,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 1160,
+       "width": 930,
+       "x": 970,
+       "y": 20
+    },
+    "marks": [],
+    "name": "famille – Todoist",
+    "percent": 0.5,
+    "swallows": [
+       {
+       // "class": "^Todoist$",
+       // "instance": "^todoist$",
+       // "machine": "^aredier\\-XPS\\-15\\-9500$",
+       // "title": "^famille\\ \\–\\ Todoist$",
+       // "window_role": "^browser\\-window$"
+       }
+    ],
+    "type": "con"
+}
+

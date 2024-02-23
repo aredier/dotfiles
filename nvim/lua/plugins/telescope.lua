@@ -2,9 +2,10 @@ local Util = require("lazyvim.util")
 return {
   "nvim-telescope/telescope.nvim",
   keys = {
-    {"<leader>gr", "<cmd>Telescope oldfiles<cr>", desc = "[g]o to [r]ecent"},
-    {"<leader>sf", Util.telescope("live_grep"), desc = "Grep (root dir)" },
-    {"<leader>/", false},
+    { "<leader>gr", "<cmd>Telescope oldfiles<cr>", desc = "[g]o to [r]ecent" },
+    { "<leader>sf", Util.telescope("live_grep"), desc = "Grep (root dir)" },
+    { "<leader>sF", Util.telescope("live_grep"), { cwd = false }, desc = "Grep (root dir)" },
+    { "<leader>/", false },
   },
   opts = {
     defaults = {
@@ -17,5 +18,5 @@ return {
       sorting_strategy = "ascending",
       --- other configs
     },
-  }
+  },
 }

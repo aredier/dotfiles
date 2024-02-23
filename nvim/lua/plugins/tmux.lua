@@ -1,19 +1,18 @@
+-- vim.keymap.set("n", "<leader>wj", "NvimTmuxNavigateDown", { silent = true })
+-- vim.keymap.set("n", "<F1>k", "NvimTmuxNavigateUp", { silent = true })
+-- vim.keymap.set("n", "<F1>h", "NvimTmuxNavigateLeft", { silent = true })
+-- vim.keymap.set("n", "<F1>l", "NvimTmuxNavigateRight", { silent = true })
+--
+
 return {
-  "alexghergh/nvim-tmux-navigation",
-  event = "VeryLazy",
-    config = function()
-      local nvim_tmux_nav = require("nvim-tmux-navigation")
-      nvim_tmux_nav.setup({
-        disable_when_zoomed = true,
-        -- defaults to false
-        keybindings = {
-          left = "<C-h>",
-          down = "<C-j>",
-          up = "<C-k>",
-          right = "<C-l>",
-          last_active = "<C-\\>",
-          next = "<C-Space>",
-        },
-      })
-    end,
+
+  "christoomey/vim-tmux-navigator",
+
+  keys = {
+
+    { "<leader>wh", "<cmd>TmuxNavigateLeft<cr>", desc = "Got to the left pane" },
+    { "<leader>wj", "<cmd>TmuxNavigateDown<cr>", desc = "Got to the down pane" },
+    { "<leader>wk", "<cmd>TmuxNavigateUp<cr>", desc = "Got to the up pane" },
+    { "<leader>wl", "<cmd>TmuxNavigateRight<cr>", desc = "Got to the right pane" },
+  },
 }
