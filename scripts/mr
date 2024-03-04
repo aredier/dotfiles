@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-glab mr create -a "aredier1" --squash-before-merge -f -y
+glab mr create -a "aredier1" --remove-source-branch --squash-before-merge -f -y

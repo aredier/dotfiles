@@ -24,7 +24,7 @@ fi
 if ! tmux has-session -t=$selected_name 2>/dev/null; then
   # new session from inside tmux
 	tmux new-session -ds $selected_name -c $selected 
-  # not existing in order to switch
+  # not existin  in order to switch
 fi
 
 tmux switch-client -t $selected_name
